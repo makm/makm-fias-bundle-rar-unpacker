@@ -1,0 +1,24 @@
+{
+  "name": "makm/fias-bundle-rar-unpacker",
+  "description": "Custom FiasBundle's component unpacker -  RarArchiver  (unpack files without RarArchive of pear)",
+  "authors": [
+    {
+      "name": "Maxim Kapkaev",
+      "email": "makm@km.ru"
+    }
+  ],
+  "require": {
+    "ext-pcntl": "*",
+    "liquetsoft/fias-component": "^3.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5",
+    "fzaninotto/faker": "^1.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Makm\\FiasBundle\\Component\\Unpacker\\": "src/",
+      "Makm\\FiasBundle\\Component\\Unpacker\\Tests\\": "tests//"
+    }
+  }
+}
